@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/customt"
+    android:background="#CC6F47">
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/backbtn"
+        android:layout_marginRight="10dp"
+        android:background="@null"
+        android:src="@drawable/ic_baseline_arrow_back_24"></ImageButton>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="22dp"
+        android:text="Past_Paper"
+        android:id="@+id/txtt"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textColor="#ffffff"></TextView>
+</androidx.appcompat.widget.Toolbar>
